@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 890d3ed16c9b3466c8df7c796278fb52
+guid: 39f230e81061b4ea2a710a3cf8722e81
 folderAsset: yes
 PluginImporter:
   externalObjects: {}
@@ -17,13 +17,20 @@ PluginImporter:
     second:
       enabled: 0
       settings:
+        Exclude Android: 1
         Exclude Editor: 1
         Exclude Linux64: 1
         Exclude OSXUniversal: 1
         Exclude Win: 1
         Exclude Win64: 1
-        Exclude iOS: 1
+        Exclude iOS: 0
         Exclude tvOS: 1
+  - first:
+      Android: Android
+    second:
+      enabled: 0
+      settings:
+        CPU: ARMv7
   - first:
       Any: 
     second:
@@ -64,7 +71,7 @@ PluginImporter:
   - first:
       iPhone: iOS
     second:
-      enabled: 0
+      enabled: 1
       settings:
         AddToEmbeddedBinaries: false
         CPU: AnyCPU
