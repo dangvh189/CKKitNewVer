@@ -1,0 +1,11 @@
+framework module CloudKitWrapper {
+  umbrella header "CloudKitWrapper.h"
+
+  export *
+  module * { export * }
+}
+
+module CloudKitWrapper.Swift {
+    header "CloudKitWrapper-Swift.h"
+    requires objc
+}
